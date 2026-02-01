@@ -1,43 +1,69 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Resume | Ash Parks</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="wrap">
-    <nav class="nav">
-      <div class="brand">Ash Parks</div>
-      <div class="links">
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </nav>
+<main class="container">
 
-    <button class="back-btn" onclick="history.back()">← Back</button>
-  </header>
+  <a href="index.html" class="back-link">← Back Home</a>
 
-  <main class="wrap">
-    <section class="section">
-      <h2>Resume</h2>
-      <p class="meta">Upload your resume to <code>assets/resume.pdf</code>.</p>
-      <div class="actions">
-        <a class="btn" href="assets/resume.pdf" target="_blank" rel="noreferrer">View Resume (PDF)</a>
-        <a class="btn ghost" href="assets/resume.pdf" download>Download</a>
-      </div>
-    </section>
+  <h1>Resume</h1>
 
-    <footer class="footer">
-      <p>© <span id="year"></span> Ash Parks</p>
-    </footer>
-  </main>
+  <!-- Education -->
+<section class="resume-section">
+  <h2>Education</h2>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+  <div class="resume-card">
+    <h3>Western Governors University</h3>
+    <p class="resume-meta">
+      Bachelor of Science in Accounting — In Progress
+    </p>
+  </div>
+</section>
+
+
+  <!-- Experience -->
+<section class="resume-section">
+  <h2>Professional Experience</h2>
+
+  <div class="resume-card">
+    <h3>GEICO — Inside Sales Representative</h3>
+    <p class="resume-meta">Feb 2026 – Present</p>
+    <ul>
+      <li>Consult customers on insurance coverage options and policy decisions through high-volume inbound sales calls.</li>
+      <li>Use performance metrics and customer data insights to improve sales outcomes and customer retention.</li>
+      <li>Maintain compliance while delivering tailored solutions based on customer risk profiles and needs.</li>
+    </ul>
+  </div>
+
+  <div class="resume-card">
+    <h3>Alorica — Team Manager</h3>
+    <p class="resume-meta">Jul 2025 – Feb 2026</p>
+    <ul>
+      <li>Led teams of 15–20 agents, coaching performance to improve KPIs including productivity, quality, and customer satisfaction.</li>
+      <li>Regularly analyzed operational reports to identify performance gaps and drive targeted coaching plans.</li>
+      <li>Presented performance data and operational updates in client meetings, translating metrics into actionable insights.</li>
+      <li>Improved team consistency by implementing structured coaching and performance tracking processes.</li>
+    </ul>
+  </div>
+
+  <div class="resume-card">
+    <h3>Jim Click Nissan — Sales Consultant</h3>
+    <p class="resume-meta">Dec 2024 – Jul 2025</p>
+    <ul>
+      <li>Consulted customers through vehicle purchase decisions while managing sales pipeline and follow-up activity.</li>
+      <li>Tracked sales performance and customer engagement metrics through CRM systems.</li>
+      <li>Maintained strong customer satisfaction while meeting monthly sales targets.</li>
+    </ul>
+  </div>
+
+  <div class="resume-card">
+    <h3>Alorica — Fraud Analyst → Team Manager</h3>
+    <p class="resume-meta">Apr 2023 – Dec 2024</p>
+    <ul>
+      <li>Investigated debit card fraud and transaction disputes, identifying suspicious activity patterns.</li>
+      <li>Resolved high volumes of customer fraud claims while maintaining strict compliance procedures.</li>
+      <li>Promoted to Team Manager, overseeing agent performance and operational quality metrics.</li>
+      <li>Used reporting data to improve resolution efficiency and customer experience outcomes.</li>
+    </ul>
+  </div>
+
+</section>
+
+
+</main>
