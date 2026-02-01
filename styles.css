@@ -151,3 +151,29 @@ body{
   text-align:center;
   color:var(--muted);
 }
+
+.hub-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap:18px;
+  margin-top:20px;
+}
+
+.hub-card{
+  text-decoration:none;
+  color:var(--text);
+  padding:30px;
+  border-radius:16px;
+  background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.01));
+  border:1px solid var(--line);
+  transition:.25s;
+}
+
+.hub-card:hover{
+  transform:translateY(-6px);
+  border-color:var(--accent);
+}
+
+.hub-card p{
+  color:var(--muted);
+}
