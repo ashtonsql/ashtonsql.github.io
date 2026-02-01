@@ -262,3 +262,15 @@ h3{margin:0 0 6px;font-size:18px}
   margin: 6px 0;
   color: var(--text);
 }
+
+.project-grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:14px;
+}
+
+/* Optional: make previews a little tighter on resume page */
+.project-grid .thumb{
+  margin-top:12px;
+}
+
