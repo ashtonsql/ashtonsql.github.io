@@ -8,117 +8,56 @@
 </head>
 
 <body>
-  <header class="wrap">
-    <nav class="nav">
-      <div class="brand">Ash Parks</div>
-      <div class="links">
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
+<header class="wrap">
+  <nav class="nav">
+    <div class="brand">Ash Parks</div>
+    <div class="links">
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
 
-      </div>
-    </nav>
+  <section class="hero">
+    <h1>Data & Financial Analyst Portfolio</h1>
+    <p class="sub">
+      SQL • Power BI • Financial analysis • Dashboard design
+    </p>
+  </section>
+</header>
 
-    <section class="hero">
-      <h1>Analyst Portfolio</h1>
-      <p class="sub">
-        SQL • Power BI • Data storytelling • Dashboard design
-      </p>
-      <div class="cta">
-        <a class="btn" href="#projects">View Projects</a>
-        <a class="btn ghost" href="#contact">Contact</a>
-      </div>
-    </section>
-  </header>
+<main class="wrap">
 
-  <main class="wrap">
-    <section id="projects" class="section">
-      <h2>Projects</h2>
+<section class="section">
+  <div class="hub-grid">
 
-      <article class="card">
-        <div class="card-top">
-          <div>
-            <h3>Precious Metals Market Dashboard</h3>
-            <p class="meta">SQL Server → Views → Power BI dashboard (2016–2026)</p>
-          </div>
-          <span class="pill">Featured</span>
-        </div>
+    <a class="hub-card" href="projects.html">
+      <h2>📊 Projects</h2>
+      <p>Dashboards, SQL analytics, and data projects.</p>
+    </a>
 
-        <!-- Replace this image with your screenshot path -->
-        <img class="thumb" src="assets/image.png" alt="Dashboard preview" />
+    <a class="hub-card" href="resume.html">
+      <h2>📄 Resume</h2>
+      <p>Experience, education, and technical skills.</p>
+    </a>
 
-        <p>
-          Built an end-to-end analytics pipeline using SQL views and Power BI to analyze gold, silver,
-          and platinum trends with KPIs (latest, start, average, high, growth %).
-        </p>
+    <a class="hub-card" href="contact.html">
+      <h2>📬 Contact</h2>
+      <p>Get in touch or connect professionally.</p>
+    </a>
 
-        <div class="actions">
-          <!-- Replace these links -->
-          <a class="btn" href="https://github.com/ashtonsql/precious-metals-sql-powerbi-dashboard/" target="_blank" rel="noreferrer">GitHub Repo</a>
-          <a class="btn ghost" href="assets/metals_dashboard.pbix" target="_blank" rel="noreferrer">Download PBIX</a>
-          <!-- Put your "Publish to web" link here when you have it -->
-          <a class="btn ghost" href="https://app.powerbi.com/reportEmbed?reportId=5ff34921-de0b-4a2a-a019-3beb671321c5&autoAuth=true&ctid=cfa792cf-7768-4341-8857-81754c2afa1f" target="_blank" rel="noreferrer">Interactive Dashboard</a>
-        </div>
+  </div>
+</section>
 
-        <!-- OPTIONAL: embed Power BI (publish-to-web iframe) -->
-        <!--
-        <div class="embed">
-          <iframe
-            title="Precious Metals Dashboard"
-            src="https://app.powerbi.com/reportEmbed?reportId=5ff34921-de0b-4a2a-a019-3beb671321c5&autoAuth=true&ctid=cfa792cf-7768-4341-8857-81754c2afa1f"
-            frameborder="0"
-            allowfullscreen="true">
-          </iframe>
-        </div>
-       -->
-      </article>
+<footer class="footer">
+  <p>© <span id="year"></span> Ash Parks</p>
+</footer>
 
-      <article class="card">
-        <h3>Next Project (Coming Soon)</h3>
-        <p class="meta">Ideas: sales analytics, churn analysis, FP&A-style variance dashboard</p>
-        <p>Add your next project here when ready.</p>
-      </article>
-    </section>
+</main>
 
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <div class="grid">
-        <div class="chip">SQL (joins, CTEs, views)</div>
-        <div class="chip">Power BI (DAX, visuals, slicers)</div>
-        <div class="chip">Data modeling</div>
-        <div class="chip">KPI design</div>
-        <div class="chip">Dashboard UX</div>
-        <div class="chip">Git/GitHub</div>
-      </div>
-    </section>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
-    <section id="resume" class="section">
-      <h2>Resume</h2>
-      <p>
-        Add your resume PDF to this repo at <code>assets/resume.pdf</code>, then link it here.
-      </p>
-      <a class="btn" href="assets/resume.pdf" target="_blank" rel="noreferrer">View Resume</a>
-    </section>
-
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p class="meta">Make it easy for recruiters to reach you.</p>
-      <div class="actions">
-        <!-- Replace placeholders -->
-        <a class="btn" href="mailto:youremail@example.com">Email</a>
-        <a class="btn ghost" href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a class="btn ghost" href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <p>© <span id="year"></span> Ash Parks • Built with GitHub Pages</p>
-    </footer>
-  </main>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
