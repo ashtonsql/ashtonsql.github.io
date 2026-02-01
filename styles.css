@@ -177,3 +177,19 @@ body{
 .hub-card p{
   color:var(--muted);
 }
+
+.back-btn{
+  margin-top:10px;
+  background:transparent;
+  color:var(--muted);
+  border:1px solid var(--line);
+  padding:8px 12px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.back-btn:hover{
+  color:var(--text);
+  border-color:var(--accent);
+}
+
