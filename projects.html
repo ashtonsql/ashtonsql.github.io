@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects | Ash Parks</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="wrap">
+    <nav class="nav">
+      <div class="brand">Ash Parks</div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="section">
+      <h2>Projects</h2>
+
+      <article class="card">
+        <div class="card-top">
+          <div>
+            <h3>Precious Metals Market Dashboard</h3>
+            <p class="meta">SQL Server → Views → Power BI dashboard (2016–2026)</p>
+          </div>
+          <span class="pill">Featured</span>
+        </div>
+
+        <img class="thumb" src="assets/dashboard.png" alt="Dashboard preview" />
+
+        <p>
+          Built an end-to-end analytics pipeline using SQL views and Power BI to analyze gold, silver, and platinum trends with KPIs
+          (latest, start, average, high, growth %).
+        </p>
+
+        <div class="actions">
+          <a class="btn" href="YOUR_GITHUB_REPO_LINK" target="_blank" rel="noreferrer">GitHub Repo</a>
+          <a class="btn ghost" href="assets/metals_dashboard.pbix" target="_blank" rel="noreferrer">Download PBIX</a>
+          <a class="btn ghost" href="YOUR_POWERBI_PUBLISH_LINK" target="_blank" rel="noreferrer">Interactive Dashboard</a>
+        </div>
+
+        <!-- OPTIONAL: embed the Power BI report directly on this page -->
+        <!--
+        <div class="embed">
+          <iframe title="Precious Metals Dashboard" src="YOUR_POWERBI_EMBED_URL" frameborder="0" allowfullscreen="true"></iframe>
+        </div>
+        -->
+      </article>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Ash Parks</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
