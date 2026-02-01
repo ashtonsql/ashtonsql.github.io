@@ -253,3 +253,12 @@ h3{margin:0 0 6px;font-size:18px}
   color:white;
 }
 
+.resume-list{
+  margin: 10px 0 0;
+  padding-left: 18px;
+}
+
+.resume-list li{
+  margin: 6px 0;
+  color: var(--text);
+}
