@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ash Parks | Analyst Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="wrap">
+    <nav class="nav">
+      <div class="brand">Ash Parks</div>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>Analyst Portfolio</h1>
+      <p class="sub">
+        SQL • Power BI • Data storytelling • Dashboard design
+      </p>
+      <div class="cta">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn ghost" href="#contact">Contact</a>
+      </div>
+    </section>
+  </header>
+
+  <main class="wrap">
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <article class="card">
+        <div class="card-top">
+          <div>
+            <h3>Precious Metals Market Dashboard</h3>
+            <p class="meta">SQL Server → Views → Power BI dashboard (2016–2026)</p>
+          </div>
+          <span class="pill">Featured</span>
+        </div>
+
+        <!-- Replace this image with your screenshot path -->
+        <img class="thumb" src="assets/dashboard.png" alt="Dashboard preview" />
+
+        <p>
+          Built an end-to-end analytics pipeline using SQL views and Power BI to analyze gold, silver,
+          and platinum trends with KPIs (latest, start, average, high, growth %).
+        </p>
+
+        <div class="actions">
+          <!-- Replace these links -->
+          <a class="btn" href="https://github.com/yourusername/precious-metals-sql-powerbi-dashboard" target="_blank" rel="noreferrer">GitHub Repo</a>
+          <a class="btn ghost" href="assets/metals_dashboard.pbix" target="_blank" rel="noreferrer">Download PBIX</a>
+          <!-- Put your "Publish to web" link here when you have it -->
+          <a class="btn ghost" href="#" target="_blank" rel="noreferrer">Interactive Dashboard</a>
+        </div>
+
+        <!-- OPTIONAL: embed Power BI (publish-to-web iframe) -->
+        <!--
+        <div class="embed">
+          <iframe
+            title="Precious Metals Dashboard"
+            src="PASTE_YOUR_POWERBI_EMBED_URL_HERE"
+            frameborder="0"
+            allowfullscreen="true">
+          </iframe>
+        </div>
+        -->
+      </article>
+
+      <article class="card">
+        <h3>Next Project (Coming Soon)</h3>
+        <p class="meta">Ideas: sales analytics, churn analysis, FP&A-style variance dashboard</p>
+        <p>Add your next project here when ready.</p>
+      </article>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="chip">SQL (joins, CTEs, views)</div>
+        <div class="chip">Power BI (DAX, visuals, slicers)</div>
+        <div class="chip">Data modeling</div>
+        <div class="chip">KPI design</div>
+        <div class="chip">Dashboard UX</div>
+        <div class="chip">Git/GitHub</div>
+      </div>
+    </section>
+
+    <section id="resume" class="section">
+      <h2>Resume</h2>
+      <p>
+        Add your resume PDF to this repo at <code>assets/resume.pdf</code>, then link it here.
+      </p>
+      <a class="btn" href="assets/resume.pdf" target="_blank" rel="noreferrer">View Resume</a>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="meta">Make it easy for recruiters to reach you.</p>
+      <div class="actions">
+        <!-- Replace placeholders -->
+        <a class="btn" href="mailto:youremail@example.com">Email</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Ash Parks • Built with GitHub Pages</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
