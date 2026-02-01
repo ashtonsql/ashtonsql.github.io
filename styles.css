@@ -187,3 +187,13 @@ h3{margin:0 0 6px;font-size:18px}
   color:var(--text);
   border-color: var(--line);
 }
+
+.logo-section{
+  text-align:center;
+  margin-top:40px;
+}
+
+.site-logo{
+  max-width:220px;
+  opacity:.9;
+}
