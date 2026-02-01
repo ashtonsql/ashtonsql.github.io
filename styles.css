@@ -197,3 +197,17 @@ h3{margin:0 0 6px;font-size:18px}
   max-width:220px;
   opacity:.9;
 }
+
+.gif-wrap{
+  display:flex;
+  justify-content:center;
+  margin-top:18px;
+}
+
+.gif{
+  width:140px;
+  height:auto;
+  border-radius:12px;
+  opacity:.9;
+}
+
