@@ -211,3 +211,45 @@ h3{margin:0 0 6px;font-size:18px}
   opacity:.9;
 }
 
+.resume-section{
+  margin-top:40px;
+}
+
+.resume-section h2{
+  margin-bottom:16px;
+}
+
+.resume-card{
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom:16px;
+}
+
+.resume-meta{
+  color: var(--muted);
+  margin-bottom:10px;
+  font-size:14px;
+}
+
+.resume-card ul{
+  padding-left:20px;
+  margin-top:8px;
+}
+
+.resume-card li{
+  margin-bottom:6px;
+}
+
+.back-link{
+  display:inline-block;
+  margin-bottom:20px;
+  color:var(--muted);
+  text-decoration:none;
+}
+
+.back-link:hover{
+  color:white;
+}
+
